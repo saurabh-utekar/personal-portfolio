@@ -1,0 +1,43 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Setting CSS for body */
+body{
+    background-color: #fff;
+    font-family: Poppins, sans-serif;
+    position: relative;
+}
+/* CSS for navigation bar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+    font-size: 1.2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+}
+.logo{
+    color: #2d2e32;
+    cursor: pointer;
+}
+#navbar ul{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: #2d2e32;
+    font-weight: 600;
+    transition: all 0.23s;
+}
+#navbar ul li a:hover{
+    color: #5675f1;
+}
