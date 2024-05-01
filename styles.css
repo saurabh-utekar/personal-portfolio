@@ -182,3 +182,71 @@ body{
     font-weight: 500;
     line-height: 1.4;
 }
+/* CSS for projects section */
+.projects{
+    /* border: 2px solid black; */
+    background-color: #f9f9f9;
+    padding: 8.8rem 0;
+    text-align: center;
+    position: relative;
+}
+/* .projects-content{
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+} */
+.projects-section-header{
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 3px solid #2d2e32;
+}
+h2{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #2d2e32;
+}
+.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.project{
+    background: #2d2e32;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: color 0.3s ease-out;
+}
+.projects-grid a {
+    text-decoration: none;
+    color: #fff;
+}
+.project-img{
+    width: 100%;
+    object-fit: cover;
+}
+.projects-grid img{
+    display: block;
+    width: 100%;
+}
+.project-title {
+    font-size: 1rem;
+    padding: 1rem 0.5rem;
+}
+.code {
+    color: #5675f1;
+    transition: color 0.3s ease-out;
+}
+.project:hover{
+    color: #5675f1;
+}
+.project:hover .code{
+    color: #fff;
+}
