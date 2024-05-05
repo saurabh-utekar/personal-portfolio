@@ -250,6 +250,7 @@ h2{
 .project:hover .code{
     color: #fff;
 }
+/* CSS for contact section */
 .contact{
     /* border: 2px solid black; */
     background-color: #fff;
@@ -313,4 +314,43 @@ h2{
 }
 .contact-details:hover{
    top: 10px;
+}
+/* CSS for footer section */
+footer{
+    background-color: #2d2e32;
+    padding: 2rem 0;
+    width: 100%;
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-section h3{
+    color: #fff;
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0.9rem;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.3rem;
+    transition: transform 0.2s ease-in;
+}
+.footer-links a:hover{
+    transform: scale(1.2);
+}
+/* CSS for mobile responsiveness */
+@media only screen and (max-width: 720px){
+    #navbar{
+        /* border: 2px solid red; */
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.7rem;
+    }
 }
