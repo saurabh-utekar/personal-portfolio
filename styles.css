@@ -250,3 +250,67 @@ h2{
 .project:hover .code{
     color: #fff;
 }
+.contact{
+    /* border: 2px solid black; */
+    background-color: #fff;
+    padding: 8.8rem 0;
+}
+.contact-content{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 4rem;
+}
+.contact-title h3{
+    text-transform: uppercase;
+    color: #5675f1;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.contact-title p{
+    color: #2d2e32;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.contact-links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6rem;
+}
+.contact-details{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    top: 0;
+    transition: all 0.3s ease-in;   
+}
+.contact-links a{
+    text-decoration: none;
+}
+.contact-links a span{
+    color: #5675f1;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+    width: 4rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 50%;
+}
+.contact-links a h3{
+    color: #2d2e32;
+    font-size: 1.6rem;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+}
+.contact-details:hover{
+   top: 10px;
+}
